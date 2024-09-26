@@ -1,6 +1,5 @@
 #include "ColorCoder.h"
-#include "MajorColor.h"
-#include "MinorColor.h"
+#include <iostream>
 
 namespace TelCoColorCoder
 {
