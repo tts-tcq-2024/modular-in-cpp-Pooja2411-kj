@@ -1,8 +1,4 @@
-#pragma once
-
 #include <string>
-#include "MajorColor.h"
-#include "MinorColor.h"
 
 namespace TelCoColorCoder
 {
