@@ -1,5 +1,3 @@
-#pragma once
-
 #include "ColorPair.h"
 
 namespace TelCoColorCoder
