@@ -1,10 +1,11 @@
-#include "ColorPair.h"
+#include "includes/ColorPair.h"
 
-namespace TelCoColorCoder
+namespace TelCoColorCoder 
 {
-    ColorPair::ColorPair(MajorColor major, MinorColor minor)
-        : majorColor(major), minorColor(minor)
-    {}
+    const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
+    const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+    
+    ColorPair::ColorPair(MajorColor major, MinorColor minor): majorColor(major), minorColor(minor) {}
 
     MajorColor ColorPair::getMajor() {
         return majorColor;
